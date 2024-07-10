@@ -314,7 +314,7 @@ main {
 
 .support-content {
   max-width: 800px;
-  padding: 100px;
+  padding: 40px 60px 70px;
   background: rgba(255, 255, 255, 0.796);
   border-radius: 10px;
 }
@@ -328,17 +328,18 @@ main {
   margin: 0 auto;
   font-size: 18px;
   max-width: 600px;
+  padding-bottom: 20px;
 }
 
 .search-form {
-  margin-top: 30px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .search-form input[type="text"] {
-  padding: 20px;
+  padding: 15px;
   width: 400px;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -346,7 +347,7 @@ main {
 }
 
 .search-form button {
-  padding: 22px 40px;
+  padding: 16px 40px;
   background-color: #007BFF;
   color: white;
   border: none;
