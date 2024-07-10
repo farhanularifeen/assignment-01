@@ -360,3 +360,52 @@ main {
 }
 
 /* Footer */
+footer {
+  background-color: #333333f5;
+  color: rgba(255, 255, 255, 0.942);
+  padding: 15px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-title {
+  font-weight: bold;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icon {
+  display: inline-block; /* Ensure icons are aligned properly */
+  width: 60px;
+  height: 60px;
+  margin-left: 5px;
+}
+
+.social-icon img {
+  width: 100%; /* Ensure icon fills its container */
+  height: 100%;
+}
+
+/* Open links in new tab */
+.social-icon a {
+  text-decoration: none;
+  color: white;
+}
+
+
