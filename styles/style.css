@@ -177,7 +177,7 @@ main {
   overflow: hidden;
 }
 
-/* Body Part 2 */
+/* Body Part 3 */
 /* Target Section */
 .target-section {
   display: flex;
@@ -198,19 +198,19 @@ main {
 }
 
 .box-1 {
-  background-color: #ffeddd;
+  background-color: #fff3dd;
 }
 
 .box-2 {
-  background-color: #ddf8ff;
+  background-color: #ddf0ff;
 }
 
 .box-3 {
-  background-color: #ddffe6;
+  background-color: #ffdddd;
 }
 
 .box-icon {
-  max-width: 80px; /* Set a max width for icons */
+  max-width: 80px; /* Set a max width */
   max-height: 80px;
   margin-bottom: 10px;
 }
@@ -237,5 +237,62 @@ main {
 
 .btn-border:hover {
   background-color: #007BFF;
+  color: rgba(255, 255, 255, 0.951);
+}
+
+/* Body Part 4 */
+/* Next Target Section */
+.next-target-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 80px;
+  margin-bottom: 80px;
+}
+
+.box-next {
+  display: flex;
+  flex-direction: stretch;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.951);
+  padding: 60px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.box-icon-next {
+  width: 100vh; /* increase width */
+  height: 20vh; /* increase height */
+  margin-bottom: 10px;
+  padding-right: 30px;
+}
+
+.text-next {
+  text-align: left;
+  width: 300%;
+}
+
+.text-next h3 {
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.text-next p {
+  margin: 0 0 40px;
+  font-size: 16px;
+}
+
+.btn-border {
+  background-color: transparent;
+  border: 2px solid #007BFF;
+  color: #007BFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-border:hover {
+  background-color: #2b8ffa;
   color: rgba(255, 255, 255, 0.951);
 }
