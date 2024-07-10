@@ -50,7 +50,7 @@ body, html {
 /* Cover section styling */
 .cover {
   height: 100vh;
-  background-image: url("path//images/Hero-bg.png");
+  background-image: url("/images/Hero-bg.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -300,7 +300,7 @@ main {
 /* Body Part 5 */
 /* Support Section */
 .support-section {
-  background-image: url("path//images/handshake.jpg");
+  background-image: url("/images/handshake.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh; /* Adjust as needed */
