@@ -117,7 +117,7 @@ main {
 }
 
 .box {
-  background-color: rgba(255, 255, 255, 0.89);
+  background-color: rgba(255, 255, 255, 0.951);
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -175,4 +175,67 @@ main {
   border: 20px solid #ddddddf0;
   border-radius: 10px;
   overflow: hidden;
+}
+
+/* Body Part 2 */
+/* Target Section */
+.target-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 60px;
+  margin-bottom: 100px;
+}
+
+.target-section .box-1, .box-2, .box-3 {
+  padding: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px; /* Limit the width of each box */
+}
+
+.box-1 {
+  background-color: #ffeddd;
+}
+
+.box-2 {
+  background-color: #ddf8ff;
+}
+
+.box-3 {
+  background-color: #ddffe6;
+}
+
+.box-icon {
+  max-width: 80px; /* Set a max width for icons */
+  max-height: 80px;
+  margin-bottom: 10px;
+}
+
+.box-1 h3, .box-2 h3, .box-3 h3 {
+  margin: 20px 0;
+  font-size: 36px;
+}
+
+.box-1 p, .box-2 p, .box-3 p {
+  margin: 0 0 20px;
+  font-size: 14px;
+}
+
+.btn-border {
+  background-color: transparent;
+  border: 2px solid #007BFF;
+  color: #007BFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-border:hover {
+  background-color: #007BFF;
+  color: rgba(255, 255, 255, 0.951);
 }
